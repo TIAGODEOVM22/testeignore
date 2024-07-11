@@ -4,18 +4,22 @@ import java.util.Arrays;
 
 public enum ProfileEnum {
 
-    ROLE_ADMIIN (description: "ROLE_ADMIN"),
-    ROLE_CUSTUMER (description: "ROLE_CUSTUMER"),
-    ROLE_TECHNICIAN (description : "ROLE_TECHNICIAN");
+    ROLE_ADMIIN ("ROLE_ADMIN"),
+    ROLE_CUSTUMER ("ROLE_CUSTUMER"),
+    ROLE_TECHNICIAN ("ROLE_TECHNICIAN");
 
     private final String description;
 
     ProfileEnum(String description) {
+
         this.description = description;
+
     }
 
     public String getDescription() {
+
         return description;
+
     }
 
     public static ProfileEnum toEnum(final String description){
