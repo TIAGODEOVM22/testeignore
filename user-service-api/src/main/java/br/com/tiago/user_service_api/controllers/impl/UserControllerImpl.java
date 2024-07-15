@@ -1,7 +1,7 @@
 package br.com.tiago.user_service_api.controllers.impl;
 
+import br.com.tiago.model.response.UserResponse;
 import br.com.tiago.user_service_api.controllers.UserController;
-import br.com.tiago.user_service_api.entities.User;
 import br.com.tiago.user_service_api.services.UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
@@ -14,7 +14,7 @@ public class UserControllerImpl implements UserController {
     private final UserService userService;
 
     @Override
-    public ResponseEntity<User> findById(String id) {
+    public ResponseEntity<UserResponse> findById(String id) {
         return ResponseEntity.ok().body(userService.findById(id));
     }
 
