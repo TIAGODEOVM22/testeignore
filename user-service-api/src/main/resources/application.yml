@@ -6,7 +6,7 @@ spring:
       uri: 'mongodb+srv://tiagodeoliveiravillalvamorel:davieisaac@helpdesk.yv0ylms.mongodb.net/helpdeskdb?retryWrites=true&w=majority&appName=HelpDesk'
       auto-index-creation: true
 springdoc:
-  apenapi:
-  title: 'UserServiceAPI'
-    description: 'CursoJavaExpert'
-    version: '1.0.0'
+  openapi:
+    title: 'User Service API'
+      description: 'Formação Backend Java Expert'
+        version: '1.0.0'
