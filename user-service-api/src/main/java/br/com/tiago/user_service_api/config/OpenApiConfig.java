@@ -6,7 +6,7 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 /*teste tem que ir para a MASTER, foi criado na branch de teste*/
-
+/*enviando para repositorio do github*/
 @Configuration
 public class OpenAPIConfig {
 
