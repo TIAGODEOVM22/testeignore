@@ -8,5 +8,5 @@ spring:
 springdoc:
   openapi:
     title: 'User Service API'
-      description: 'Formação Backend Java Expert'
-        version: '1.0.0'
+    description: 'Formação Backend Java Expert'
+    version: '1.0.0'
