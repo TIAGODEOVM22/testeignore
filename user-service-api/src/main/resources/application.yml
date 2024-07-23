@@ -5,8 +5,10 @@ spring:
     mongodb:
       uri: 'mongodb+srv://tiagodeoliveiravillalvamorel:davieisaac@helpdesk.yv0ylms.mongodb.net/helpdeskdb?retryWrites=true&w=majority&appName=HelpDesk'
       auto-index-creation: true
+
+#essas configurações são o cabeçalho da pagina do swagger
 springdoc:
   openapi:
     title: 'User Service API'
-      description: 'Formação Backend Java Expert'
-        version: '1.0.0'
+    description: 'Formação Backend Java Expert'
+    version: '1.0.0'
