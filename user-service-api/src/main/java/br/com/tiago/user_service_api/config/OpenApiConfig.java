@@ -5,7 +5,7 @@ import io.swagger.v3.oas.models.info.Info;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-
+/*teste tem que ir para a MASTER, foi criado na branch de teste*/
 
 @Configuration
 public class OpenAPIConfig {
