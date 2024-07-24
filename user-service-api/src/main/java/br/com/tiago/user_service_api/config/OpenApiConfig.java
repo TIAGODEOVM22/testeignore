@@ -11,6 +11,7 @@ public class OpenApiConfig {
 
     @Bean
     public OpenAPI custonOpenAPI(
+            /*variaveis declaradas no application.yml*/
             @Value("${springdoc.openapi.title}") final String title,
             @Value("${springdoc.openapi.description}") final String description,
             @Value("${springdoc.openapi.version}") final String version
