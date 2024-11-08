@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="hd-commons-lib/src/main/java"/>
+	<classpathentry kind="src" path="user-service-api/build/generated/sources/annotationProcessor/java/main"/>
+	<classpathentry kind="src" path="user-service-api/src/main/generated"/>
+	<classpathentry kind="src" path="user-service-api/src/main/java"/>
+	<classpathentry kind="src" path="user-service-api/src/test/java"/>
+	<classpathentry kind="lib" path="hd-commons-lib/target/hd-commons-lib-1.0.0.jar"/>
+	<classpathentry kind="lib" path="user-service-api/build/libs/user-service-api-1.0.0-plain.jar"/>
+	<classpathentry kind="lib" path="user-service-api/build/libs/user-service-api-1.0.0.jar"/>
+	<classpathentry kind="lib" path="user-service-api/gradle/wrapper/gradle-wrapper.jar"/>
+	<classpathentry kind="output" path="hd-commons-lib/target/classes"/>
+</classpath>

@@ -9,6 +9,8 @@ import java.time.LocalDateTime;
 @Builder
 public class StandardError {
 
+    /*realizando testes com git ignore*/
+
     private LocalDateTime timestamp;
     private Integer status;
     private String error;
