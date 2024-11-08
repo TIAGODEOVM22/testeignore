@@ -1,0 +1,36 @@
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+/log/
+/logs/
+
+# Configurações do IntelliJ
+.idea/
+/*.iml
+
+# Diretórios de build
+/target/
+/out/
+
+# Dependências baixadas pelo Maven ou Gradle
+/.mvn/
+/build/
+/.gradle/
+/mvnw
+mvnw.cmd
+
+# Arquivos de cache e temporários
+*.class
+*.jar
+*.war
+*.ear
+*.swp
+
+# Variáveis de ambiente
+.env
+
+# Test outputs
+/test-output/
