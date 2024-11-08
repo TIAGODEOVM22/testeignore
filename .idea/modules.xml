@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/HELPDESK.iml" filepath="$PROJECT_DIR$/.idea/HELPDESK.iml" />
-      <module fileurl="file://$PROJECT_DIR$/hd-commons-lib/controller/controller.iml" filepath="$PROJECT_DIR$/hd-commons-lib/controller/controller.iml" />
     </modules>
   </component>
 </project>
